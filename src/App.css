@@ -1,0 +1,111 @@
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  color: #282c34;
+}
+
+input.search-input,
+input.add-input {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  max-width: 400px;
+  border: 2px solid #61dafb;
+  border-radius: 5px;
+}
+
+button.generate-button,
+button.add-button {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #000;
+}
+
+.pokemon-card {
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pokemon-card img {
+  width: 50%;
+  height: auto;
+}
+
+
+.pokemon-card h2 {
+  margin: 10px 0;
+}
+
+.pokemon-card p {
+  margin: 5px 0 10px;
+}
+
+.pokemon-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.pokemon-actions button {
+  background-color: #61dafb;
+  font-weight: bold;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.autocomplete-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.autocomplete-item {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.autocomplete-item:hover,
+.autocomplete-item.selected {
+  background-color: #61dafb;
+}
